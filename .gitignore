@@ -1,2 +1,14 @@
 my-venv/*
 
+# Ignore Terraform files
+**/.terraform/*
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+*.tfplan
+*.tfvars
+.terraformrc
+terraform.rc
